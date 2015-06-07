@@ -10,6 +10,14 @@
 	<!--div id="projects-wip">This page will be up soon. For the time being, please refer to my <a target="_blank" href="Resume_Harshul_Gandhi.pdf">Resume</a> and <a target="_blank" href="https://sg.linkedin.com/in/harshulgandhi">LinkedIn profile</a>!!</div>
 	<div class="image-wip"><img  src="Under_Construction_Sign.jpg"></div-->
 	<div id="page-head">
+	<div class="head-links">
+			<a href="index.html#aboutme">About Me</a>
+			<a href="index.html#prof">Professional</a>
+			<a href="index.html#acads">Academics</a>
+			<a href="projects.html">Projects</a>
+			<a href="index.html#social">Social & Organisational</a>
+			<a target="_blank" href="Resume_Harshul_Gandhi.pdf">Resume</a>
+	</div>
 	<div class="proj-heading">
 				<h1>Projects</h1>
 				<hr/>
@@ -17,13 +25,14 @@
 	</div>
 
 	<div class="page-body">
+		<div class="body-left">
 		<ul>
 			<li>
 			<div class="proj-head">
 				Web Security - Cross Site Request Forgery scanner [NUS, 2015]
 			</div>
 			<div class="proj-body">
-				Developed a scanner that points out all the CSRF injection points in a website. The design of this scanner is modular, with 4 separate stages. First stage points out all the plausible injection points, second stage gives all the payloads for each injection point, third stage verifies if a combination of injection point and payload is a valid attack vector and forth stage generates selenium scripts. These selenium scripts show the attack in an automated fashion.
+				This was semester project for Web Security module that I signed up for. As part of this, we developed a scanner that points out all the CSRF injection points in a website. The design of this scanner is modular, with 4 separate stages. First stage crawls all the pages of a website and points out all the plausible injection points, second stage gives all the payloads for each injection point, third stage verifies if a combination of injection point and payload is a valid attack vector and forth stage generates selenium scripts. These selenium scripts show the attack in an automated fashion. Code for the final scanner is available on my github account.
 				<div class="proj-technology">
 					</br>Technology used:
 						<ul>
@@ -40,7 +49,7 @@
 				PlaceR: A place recommendation system [NUS, 2015]
 			</div>
 			<div class="proj-body">
-				Designed and developed a place recommendation system for a particular user. Recommendation is based on user's interest devised from his twitter account. This system is developed as separate modules and can be plugged into other social sensors for precise interest gathering.
+				This was a business analytics project. We though of developing something that would help tourists visiting a new place. We designed and developed a place recommendation system. Recommendation is based on user's interest devised from his twitter account. To do this, we fetch their tweets and apply some NLP and text processing techniques like tokenization, key word identification etc. This system is developed as separate modules and can be plugged into other social sensors for precise interest gathering. For this project, we only used twitter.
 				<div class="proj-technology">
 					</br>Technology used:
 						<ul>
@@ -58,8 +67,7 @@
 				OwnCloud - Added shared comment feature [NUS, 2015]
 			</div>
 			<div class="proj-body">
-				Implemented a feature in OwnCloud application (a web platform for share files) where a user could invite another user to comment on a particular file. Then both users could simultaneously comment on the file and see each other's comment. </br>
-				In addition to this, added functionality like interactive tour of application, show online user.
+				Implemented several features in OwnCloud application (a web platform for sharing files). One feature was a tour of the application that would guide new users on how to upload and edit documents. Another feature as - a user could invite another user to comment on a particular file. Then both users could simultaneously comment on the file and see each other's comment. Also, a list of online users was populated on the interface.
 				<div class="proj-technology">
 					</br>Technology used:
 						<ul>
@@ -76,7 +84,7 @@
 				Computer Vision: 3D reconstruction of a scene from single 2D image [NUS, 2014]
 			</div>
 			<div class="proj-body">
-				Developed and implemented an algorithm to construct 3D view of a 2D image of a scene. Developed a GUI using PyQt to input an image and provide initial data for processing. A background script written in Python constructed different frames showing 3D view of the input image. This required some Computer Vision techniques.
+				Developed and implemented an algorithm to construct 3D view of a 2D image of a scene. A very famous concept from the field of computer vision - perspective and orthographic projection model - was used. Also developed a GUI using PyQt to input an image and provide initial data for processing. A background script written in Python constructed different frames showing 3D view of the input image. These frames were then combined to form a video.
 				<div class="proj-technology">
 					</br>Technology used:
 						<ul>
@@ -94,7 +102,7 @@
 				Android: Incog Private Information Protection - IP2 [NUS, 2014]
 			</div>
 			<div class="proj-body">
-				Studied Android system and its vulnerable sections. Developed an application that allows users to run a particular application in Incognito mode. This provides protection to the application against attacks. 
+				Studied Android system and what are the current vulnerabilities it is. To tackle those vulnerabilities we developed an application that allows users to run a particular application in Incognito mode. This mode is something similar to browser incognito mode only with added features. This provides protection to the application against attacks. 
 				<div class="proj-technology">
 					</br>Technology used:
 						<ul>
@@ -144,7 +152,7 @@
 				Digital Clock [NIT Bhopal, 2010]
 			</div>
 			<div class="proj-body">
-				Developed and implemented an algorithm for a digital clock. Executed the C program on a micro-controller and LCD (16x2).
+				This is a project i developed during  sem break of 2nd year of my under graduation. I wanted to learn more about microcontroller and how we can program them to develop specific products. I started thinking of replicating something that we use very often. Thats when developing a digital clock came into my mind. I had also done some work on interfacing a 16x2 LCD display with microcontroller so i was sure that I would use that as a display interface. Next I developed and implemented an algorithm for the clock. I wrote this code in C and programmed microcontroller with it.
 				<div class="proj-technology">
 					</br>Technology used:
 						<ul>
@@ -193,6 +201,37 @@
 			</li>
 
 		</ul>
+	</div>
+	<div class="body-right">
+				<div class="img-cont">
+					<img src="harshul_pic.jpg" alt="Harshul Gandhi"/>
+				</div>
+				<div>
+					<p>Born : 3<sup>rd</sup> February,1991</p>
+					<p class="mail-head">Email
+						<p class="mail">Work : <a href="mailto:hgandhi@comp.nus.edu.sg">hgandhi@comp.nus.edu.sg</a></p>
+						<p class="mail">Other : <a href="mailto:gandhi.harshul.88@gmail.com">gandhi.harshul.88@gmail.com</a></p>
+					</p>
+					<div id="social-cont">
+						<a title="Facebook" class="social-link facebook" target="_blank" href="https://www.facebook.com/harshul.gandhi">
+							<div class="link-img">f</div>
+							<div class="link-text">Stalk Me</div>
+						</a>
+						<a title="LinkedIn" class="social-link linkedin" target="_blank" href="https://sg.linkedin.com/in/harshulgandhi">
+							<div class="link-img">in</div>
+							<div class="link-text">Hire Me</div>
+						</a>
+						<a title="Quora" class="social-link quora" target="_blank" href="http://www.quora.com/Harshul-Gandhi">
+							<div class="link-img">Q</div>
+							<div class="link-text">Vote Me</div>
+						</a>
+						<a title="Twitter" class="social-link twitter" target="_blank" href="https://twitter.com/harshulgandhi">
+							<div class="link-img">t</div>
+							<div class="link-text">Follow Me</div>
+						</a>						
+					</div>
+				</div>
+			</div>
 	</div>
 	<!--div class="item">
 		Text goes in here. Text goes in here. Text goes in here. Text goes in here. Text goes in here. Text goes in here. Text goes in here. Text goes in here.
